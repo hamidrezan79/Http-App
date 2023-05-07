@@ -1,0 +1,21 @@
+.fullComment{
+    background: #a1a1aa;
+    color: #111111;
+    border-radius: 5px;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    height: 13rem;
+}
+.fullComment p{
+    padding: 20px;
+}
+.fullCommentForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
