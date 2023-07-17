@@ -16,7 +16,7 @@
   justify-content: center;
   align-items: center;
 }
-.newComment input{
+.newComment input,textarea{
     border-radius: 5px;
     border-color: #a1a1aa;
     outline:none;

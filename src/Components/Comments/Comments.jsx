@@ -1,9 +1,9 @@
 import "./Comments.css";
-const Comments = () => {
+const Comments = ({ name, email,onClick }) => {
   return (
-    <div className="comments">
-      <p>name</p>
-      <p>email</p>
+    <div className="comments" onClick={onClick}>
+      <p>name : {name}</p>
+      <p>email : {email}</p>
     </div>
   );
 };
